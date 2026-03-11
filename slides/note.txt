@@ -1,0 +1,39 @@
+﻿software-design-principles-cpp
+│
+├── README.md
+│
+├── slides
+│   └── software_design_principles.pptx
+│
+├── 00_bad_design
+│   └── order_system.cpp
+│
+├── 01_cohesion
+│   ├── Order.h
+│   ├── Order.cpp
+│   └── main.cpp
+│
+├── 02_coupling
+│   ├── Order.h
+│   ├── OrderCalculator.h
+│   ├── OrderCalculator.cpp
+│   ├── OrderPrinter.h
+│   └── main.cpp
+│
+├── 03_separation_of_concerns
+│   ├── model
+│   │   └── Order.h
+│   │
+│   ├── services
+│   │   └── OrderCalculator.h
+│   │
+│   ├── infrastructure
+│   │   └── OrderRepository.h
+│   │
+│   ├── presentation
+│   │   └── OrderPrinter.h
+│   │
+│   └── main.cpp
+│
+└── diagrams
+    └── architecture.png

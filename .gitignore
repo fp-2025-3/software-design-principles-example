@@ -1,0 +1,16 @@
+﻿# compiled files
+*.o
+*.out
+*.exe
+
+# build folder
+build/
+docs/latex/
+
+# editors
+.vscode/
+.idea/
+
+# logs
+*.log
+
